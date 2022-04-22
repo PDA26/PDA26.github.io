@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>First article test</title>
+    <url>/2021/03/20/tags/</url>
+    <content><![CDATA[<h1 id="title-lvl1-test"><a href="#title-lvl1-test" class="headerlink" title="title lvl1 test"></a>title lvl1 test</h1><h2 id="title-lvl2-test"><a href="#title-lvl2-test" class="headerlink" title="title lvl2 test"></a>title lvl2 test</h2><h3 id="title-lvl3-test"><a href="#title-lvl3-test" class="headerlink" title="title lvl3 test"></a>title lvl3 test</h3><span id="more"></span>
+<ul>
+<li>list1 test</li>
+<li>list2 test<br>  a sub list test<br>  b sub list test</li>
+<li>list3 test</li>
+</ul>
+<p><a href="https://www.github.com/PDA26">test link github</a><br><img src="https://s2.loli.net/2022/04/22/5ViLPCSmeUWu3d6.jpg" alt="test goku.jpg"></p>
+<p><em>this is italic</em><br><strong>this is bold</strong></p>
+<p><code>    &lt;html&gt;this is a line of code&lt;/html&gt;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">    &lt;title&gt; test title &lt;title&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>this is reference</p>
+</blockquote>
+<hr>
+<p>this is a line</p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+        <tag>share</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/04/20/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
