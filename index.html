@@ -167,7 +167,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -334,7 +334,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/01/12/Archive_1/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2019/01/12/Archive_1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/spike.jpg">
@@ -352,7 +352,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2020/01/12/Archive_1/" class="post-title-link" itemprop="url">Archive Project &#58; xxx</a>
+          <a href="/2019/01/12/Archive_1/" class="post-title-link" itemprop="url">Archive Project - KinectCamera</a>
         </h2>
 
         <div class="post-meta-container">
@@ -363,14 +363,14 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2020-01-12 22:44:48" itemprop="dateCreated datePublished" datetime="2020-01-12T22:44:48-05:00">2020-01-12</time>
+      <time title="Created: 2019-01-12 22:44:48" itemprop="dateCreated datePublished" datetime="2019-01-12T22:44:48-05:00">2019-01-12</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-04-22 15:38:21" itemprop="dateModified" datetime="2022-04-22T15:38:21-04:00">2022-04-22</time>
+      <time title="Modified: 2022-05-30 00:25:44" itemprop="dateModified" datetime="2022-05-30T00:25:44-04:00">2022-05-30</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -378,7 +378,7 @@
       </span>
       <span class="post-meta-item-text">In</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Software-Engineering/" itemprop="url" rel="index"><span itemprop="name">Software Engineering</span></a>
+          <a href="/categories/Self-maintained-Software-Engineering-Project/" itemprop="url" rel="index"><span itemprop="name">Self-maintained Software Engineering Project</span></a>
         </span>
     </span>
 
@@ -391,8 +391,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2020/01/12/Archive_1/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/01/12/Archive_1/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2019/01/12/Archive_1/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/01/12/Archive_1/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -403,7 +403,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>26</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -421,10 +421,18 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Module-about-to-be-filled-by-Sam"><a href="#Module-about-to-be-filled-by-Sam" class="headerlink" title="Module about to be filled by Sam"></a>Module about to be filled by Sam</h1>
+          <h1 id="KinectCamera"><a href="#KinectCamera" class="headerlink" title="KinectCamera"></a>KinectCamera</h1><p>A convinent encapsulation for kinect camera image capture</p>
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This project encapsulates complicated Kinect library function calls<br>into a simple class for convinence.</p>
+<p>It provides the following image capture abilities:</p>
+<ul>
+<li>Color image</li>
+<li>Infrared image</li>
+<li>Depth image</li>
+</ul>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Header</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;KinectCamera.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// (Optional) set log output</span></span><br><span class="line">Log::<span class="built_in">Initialise</span>(<span class="string">&quot;Test.log&quot;</span>);</span><br><span class="line">Log::<span class="built_in">SetThreshold</span>(Log::Level::Debug);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Initialize camera object</span></span><br><span class="line">KinectCamera TestCamera;</span><br><span class="line"></span><br><span class="line"><span class="comment">// (Optional) set wanted image types</span></span><br><span class="line">TestCamera.m_bColorWanted = <span class="literal">true</span>;</span><br><span class="line">TestCamera.m_bInfraredWanted = <span class="literal">true</span>;</span><br><span class="line">TestCamera.m_bDepthWanted = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Set image output location</span></span><br><span class="line">TestCamera.m_szColorOutput = <span class="string">&quot;TestColor.png&quot;</span>;</span><br><span class="line">TestCamera.m_szInfraredOutput = <span class="string">&quot;TestInfrared.png&quot;</span>;</span><br><span class="line">TestCamera.m_szDepthOutput = <span class="string">&quot;TestDepth.png&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Initialize sensor (would succeed if driver is installed correctly,</span></span><br><span class="line"><span class="comment">// regardless the camera is connected or not)</span></span><br><span class="line">TestCamera.<span class="built_in">InitializeDefaultSensor</span>();</span><br><span class="line"></span><br><span class="line"><span class="comment">// Check for availiablity of camera sensor</span></span><br><span class="line"><span class="keyword">while</span> (<span class="built_in">FAILED</span>(TestCamera.<span class="built_in">CheckAvailiable</span>()))</span><br><span class="line">    <span class="comment">// Kinect may not be ready; wait and retry</span></span><br><span class="line">    <span class="built_in">Sleep</span>(<span class="number">100</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Capture the image</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">SUCCEEDED</span>(TestCamera.<span class="built_in">Capture</span>()))</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/01/12/Archive_1/#more" rel="contents">
+              <a class="btn" href="/2019/01/12/Archive_1/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -468,7 +476,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="Symbols count total">0k</span>
+    <span title="Symbols count total">1k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">

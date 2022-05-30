@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Archive Project &amp;#58; xxx</title>
-    <url>/2020/01/12/Archive_1/</url>
-    <content><![CDATA[<h1 id="Module-about-to-be-filled-by-Sam"><a href="#Module-about-to-be-filled-by-Sam" class="headerlink" title="Module about to be filled by Sam"></a>Module about to be filled by Sam</h1>]]></content>
+    <title>Archive Project - KinectCamera</title>
+    <url>/2019/01/12/Archive_1/</url>
+    <content><![CDATA[<h1 id="KinectCamera"><a href="#KinectCamera" class="headerlink" title="KinectCamera"></a>KinectCamera</h1><p>A convinent encapsulation for kinect camera image capture</p>
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This project encapsulates complicated Kinect library function calls<br>into a simple class for convinence.</p>
+<p>It provides the following image capture abilities:</p>
+<ul>
+<li>Color image</li>
+<li>Infrared image</li>
+<li>Depth image</li>
+</ul>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Header</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;KinectCamera.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// (Optional) set log output</span></span><br><span class="line">Log::<span class="built_in">Initialise</span>(<span class="string">&quot;Test.log&quot;</span>);</span><br><span class="line">Log::<span class="built_in">SetThreshold</span>(Log::Level::Debug);</span><br><span class="line"></span><br><span class="line"><span class="comment">// Initialize camera object</span></span><br><span class="line">KinectCamera TestCamera;</span><br><span class="line"></span><br><span class="line"><span class="comment">// (Optional) set wanted image types</span></span><br><span class="line">TestCamera.m_bColorWanted = <span class="literal">true</span>;</span><br><span class="line">TestCamera.m_bInfraredWanted = <span class="literal">true</span>;</span><br><span class="line">TestCamera.m_bDepthWanted = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Set image output location</span></span><br><span class="line">TestCamera.m_szColorOutput = <span class="string">&quot;TestColor.png&quot;</span>;</span><br><span class="line">TestCamera.m_szInfraredOutput = <span class="string">&quot;TestInfrared.png&quot;</span>;</span><br><span class="line">TestCamera.m_szDepthOutput = <span class="string">&quot;TestDepth.png&quot;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Initialize sensor (would succeed if driver is installed correctly,</span></span><br><span class="line"><span class="comment">// regardless the camera is connected or not)</span></span><br><span class="line">TestCamera.<span class="built_in">InitializeDefaultSensor</span>();</span><br><span class="line"></span><br><span class="line"><span class="comment">// Check for availiablity of camera sensor</span></span><br><span class="line"><span class="keyword">while</span> (<span class="built_in">FAILED</span>(TestCamera.<span class="built_in">CheckAvailiable</span>()))</span><br><span class="line">    <span class="comment">// Kinect may not be ready; wait and retry</span></span><br><span class="line">    <span class="built_in">Sleep</span>(<span class="number">100</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Capture the image</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">SUCCEEDED</span>(TestCamera.<span class="built_in">Capture</span>()))</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Software Engineering</category>
+        <category>Self-maintained Software Engineering Project</category>
       </categories>
       <tags>
         <tag>Archives</tag>
+        <tag>Portfolio</tag>
       </tags>
   </entry>
   <entry>
