@@ -64,12 +64,18 @@
     <title>Archive Project - Community Information System</title>
     <url>/2022/05/07/Archive_Newbee/</url>
     <content><![CDATA[<h1 id="Newbee-A-Community-Information-System"><a href="#Newbee-A-Community-Information-System" class="headerlink" title="Newbee - A Community Information System"></a>Newbee - A Community Information System</h1><p>A system for community group purchase, in order to reduce crowding shopping condition under the enviroment of COVID-19, as well as cut down the logistic costs and purchase efficiency.</p>
-<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This project focus on a 4 roles in a community - Manager, Market, Delivery and Resident. A purchase process will be transfered role by role. Each role can manage and get access of data within their authority. </p>
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This app contains a whole set of purchasing process, including residents&#96; selecting items, community verifying and placing order, supermarket confirming order and packing products, as well as courier delivery. Three kinds of users have been assigned the access to sign up and sign in: communities(resident and manager), supermarkets and couriers.</p>
 <p>Highlights:</p>
 <ul>
 <li>Google Map API</li>
 <li>UI&#x2F;UX Design</li>
 <li>Java Swing<span id="more"></span></li>
+</ul>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><ul>
+<li><p>Roles and Process<br><img src="https://s2.loli.net/2022/05/31/umSghHQaBDJlIP5.png" alt="Process.png"><br><img src="https://s2.loli.net/2022/05/31/AXBVomprsS7yvOY.png" alt="process2.png"></p>
+</li>
+<li><p>Work Flow<br><img src="https://s2.loli.net/2022/05/31/JB51nefwHt4rNc7.png" alt="work-flow.png"></p>
+</li>
 </ul>
 <h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><ul>
 <li>Log-in Panel (Main)<br><img src="https://s2.loli.net/2022/05/31/sdWoutAeBCHYUX7.png" alt="log-in.png"></li>
