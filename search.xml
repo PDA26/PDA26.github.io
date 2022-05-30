@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>First article test</title>
-    <url>/1996/03/20/tags/</url>
-    <content><![CDATA[<h1 id="title-lvl1-test"><a href="#title-lvl1-test" class="headerlink" title="title lvl1 test"></a>title lvl1 test</h1><h2 id="title-lvl2-test"><a href="#title-lvl2-test" class="headerlink" title="title lvl2 test"></a>title lvl2 test</h2><h3 id="title-lvl3-test"><a href="#title-lvl3-test" class="headerlink" title="title lvl3 test"></a>title lvl3 test</h3><span id="more"></span>
-<ul>
-<li>list1 test</li>
-<li>list2 test<br>  a sub list test<br>  b sub list test</li>
-<li>list3 test</li>
-</ul>
-<p><a href="https://www.github.com/PDA26">test link github</a><br><img src="https://s2.loli.net/2022/04/22/5ViLPCSmeUWu3d6.jpg" alt="test goku.jpg"></p>
-<p><em>this is italic</em><br><strong>this is bold</strong></p>
-<p><code>    &lt;html&gt;this is a line of code&lt;/html&gt;</code></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">    &lt;title&gt; test title &lt;title&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>this is reference</p>
-</blockquote>
-<hr>
-<p>this is a line</p>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-        <tag>share</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Archive Project - KinectCamera</title>
     <url>/2019/01/12/Archive_KinectCamera/</url>
     <content><![CDATA[<h1 id="KinectCamera"><a href="#KinectCamera" class="headerlink" title="KinectCamera"></a>KinectCamera</h1><p>A convinent encapsulation for kinect camera image capture</p>
@@ -86,6 +58,87 @@
         <tag>Archives</tag>
         <tag>Portfolio</tag>
         <tag>C/C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Archive Project - Community Information System</title>
+    <url>/2022/05/07/Archive_Newbee/</url>
+    <content><![CDATA[<h1 id="Newbee-A-Community-Information-System"><a href="#Newbee-A-Community-Information-System" class="headerlink" title="Newbee - A Community Information System"></a>Newbee - A Community Information System</h1><p>A system for community group purchase, in order to reduce crowding shopping condition under the enviroment of COVID-19, as well as cut down the logistic costs and purchase efficiency.</p>
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This project focus on a 4 roles in a community - Manager, Market, Delivery and Resident. A purchase process will be transfered role by role. Each role can manage and get access of data within their authority. </p>
+<p>Highlights:</p>
+<ul>
+<li>Google Map API</li>
+<li>UI&#x2F;UX Design</li>
+<li>Java Swing<span id="more"></span></li>
+</ul>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><ul>
+<li>Log-in Panel (Main)<br><img src="https://s2.loli.net/2022/05/31/sdWoutAeBCHYUX7.png" alt="log-in.png"></li>
+</ul>
+<hr>
+<ul>
+<li><p>Market Main Panel<br><img src="https://s2.loli.net/2022/05/31/RBaiFxSez36rQG4.png" alt="market.png"></p>
+</li>
+<li><p>Market Warehouse Management<br><img src="https://s2.loli.net/2022/05/31/YzHsJPOiFkvKq9u.png" alt="market-menu.png"></p>
+</li>
+<li><p>Market Order Management<br><img src="https://s2.loli.net/2022/05/31/LVOCS17pi4oPBWT.png" alt="market-order-overview.png"><br><img src="https://s2.loli.net/2022/05/31/TXa2uDbeslt3wLZ.png" alt="market-order-detail.png"></p>
+</li>
+</ul>
+<hr>
+<ul>
+<li>Resident Main Panel<br><img src="https://s2.loli.net/2022/05/31/mt2eSHEw7FvrRj8.png" alt="resident.png"></li>
+</ul>
+<hr>
+<ul>
+<li><p>Community Main Panel<br><img src="https://s2.loli.net/2022/05/31/6H2XtzVGUkvKEZ9.png" alt="com.png"></p>
+</li>
+<li><p>Community Management<br><img src="https://s2.loli.net/2022/05/31/4PQ5cIwutNrmzKC.png" alt="com-reg.png"></p>
+</li>
+<li><p>Community Order Management<br><img src="https://s2.loli.net/2022/05/31/rU396cSmqxogbWh.png" alt="com-overview.png"><br><img src="https://s2.loli.net/2022/05/31/KwZo5harqTjuGCV.png" alt="com-order-detail.png"><br><img src="https://s2.loli.net/2022/05/31/tZK1faFmQ2iGLRd.png" alt="com-history.png"></p>
+</li>
+</ul>
+<hr>
+<ul>
+<li><p>Delivery Main Panel<br><img src="https://s2.loli.net/2022/05/31/SiQa7nuvUp841PA.png" alt="delivery.png"></p>
+</li>
+<li><p>Delivery Choosing<br><img src="https://s2.loli.net/2022/05/31/o1qdEzYOHC3MNXQ.png" alt="delivery-select-store.png"></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Self-maintained Software Engineering Project</category>
+      </categories>
+      <tags>
+        <tag>Archives</tag>
+        <tag>Portfolio</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>First article test</title>
+    <url>/1996/03/20/test/</url>
+    <content><![CDATA[<h1 id="title-lvl1-test"><a href="#title-lvl1-test" class="headerlink" title="title lvl1 test"></a>title lvl1 test</h1><h2 id="title-lvl2-test"><a href="#title-lvl2-test" class="headerlink" title="title lvl2 test"></a>title lvl2 test</h2><h3 id="title-lvl3-test"><a href="#title-lvl3-test" class="headerlink" title="title lvl3 test"></a>title lvl3 test</h3><span id="more"></span>
+<ul>
+<li>list1 test</li>
+<li>list2 test<br>  a sub list test<br>  b sub list test</li>
+<li>list3 test</li>
+</ul>
+<p><a href="https://www.github.com/PDA26">test link github</a><br><img src="https://s2.loli.net/2022/04/22/5ViLPCSmeUWu3d6.jpg" alt="test goku.jpg"></p>
+<p><em>this is italic</em><br><strong>this is bold</strong></p>
+<p><code>    &lt;html&gt;this is a line of code&lt;/html&gt;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">    &lt;title&gt; test title &lt;title&gt;</span><br><span class="line">    &lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>this is reference</p>
+</blockquote>
+<hr>
+<p>this is a line</p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+        <tag>share</tag>
       </tags>
   </entry>
 </search>
