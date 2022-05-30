@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Archive Project - KinectCamera</title>
+    <title>Portfolio - KinectCamera</title>
     <url>/2019/01/12/Archive_KinectCamera/</url>
-    <content><![CDATA[<h1 id="KinectCamera"><a href="#KinectCamera" class="headerlink" title="KinectCamera"></a>KinectCamera</h1><p>A convinent encapsulation for kinect camera image capture</p>
+    <content><![CDATA[<h1 id="KinectCamera"><a href="#KinectCamera" class="headerlink" title="KinectCamera"></a>KinectCamera</h1><p>A convenient encapsulation for kinect camera image capture</p>
 <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This project encapsulates complicated Kinect library function calls<br>into a simple class for convinence.</p>
 <p>It provides the following image capture abilities:</p>
 <ul>
@@ -22,7 +22,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Archive Project - Kinect Vision Socket Comm</title>
+    <title>Portfolio - Kinect Vision Socket Comm</title>
     <url>/2018/11/23/Archive_KinectSock/</url>
     <content><![CDATA[<h1 id="Kinect-Vision-Socket-Comm"><a href="#Kinect-Vision-Socket-Comm" class="headerlink" title="Kinect Vision Socket Comm"></a>Kinect Vision Socket Comm</h1><p>Control multiple Kinect cameras over LAN</p>
 <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This project provides ability to control multiple clients with<br>Kinect camera over LAN from one host.</p>
@@ -61,7 +61,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Archive Project - Community Information System</title>
+    <title>Portfolio - Community Information System</title>
     <url>/2022/05/07/Archive_Newbee/</url>
     <content><![CDATA[<h1 id="Newbee-A-Community-Information-System"><a href="#Newbee-A-Community-Information-System" class="headerlink" title="Newbee - A Community Information System"></a>Newbee - A Community Information System</h1><p>A system for community group purchase, in order to reduce crowding shopping condition under the enviroment of COVID-19, as well as cut down the logistic costs and purchase efficiency.</p>
 <h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This app contains a whole set of purchasing process, including residents&#96; selecting items, community verifying and placing order, supermarket confirming order and packing products, as well as courier delivery. Three kinds of users have been assigned the access to sign up and sign in: communities(resident and manager), supermarkets and couriers.</p>
@@ -145,6 +145,63 @@
       <tags>
         <tag>test</tag>
         <tag>share</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Portfolio - Restaurant Database Management System</title>
+    <url>/2021/12/16/Archive_DatabaseManagement/</url>
+    <content><![CDATA[<h1 id="Restaurant-Database-Management-System"><a href="#Restaurant-Database-Management-System" class="headerlink" title="Restaurant Database Management System"></a>Restaurant Database Management System</h1><p>A solution for restaurant’s daily maintainance including order, reservation, checkout and financial management.</p>
+<h2 id="Highlights"><a href="#Highlights" class="headerlink" title="Highlights"></a>Highlights</h2><ul>
+<li>Basis the past choices a custom menu will be available to each customer along with the traditional menu.</li>
+<li>Free delivery of birthday cake for the prime members.</li>
+<li>Automatic calculation of related data such as stock number, order total and tips.</li>
+<li>Support overview and digests organizing in reports for easy analysis.</li>
+</ul>
+<span id="more"></span>
+
+
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><ul>
+<li>CRUD of Customer<br><img src="https://s2.loli.net/2022/05/31/zWeqgGMC8TcN5En.png" alt="Customer_CRUD.png"></li>
+</ul>
+<hr>
+<ul>
+<li>CRUD of Member<br><img src="https://s2.loli.net/2022/05/31/mjSEf5RXgLHcNAT.png" alt="member_CRUD.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Customized Menu<br><img src="https://s2.loli.net/2022/05/31/A69qkQsh2wHgecU.png" alt="customized_menu.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Dine-in Order<br><img src="https://s2.loli.net/2022/05/31/fMyGlANwpgv7bYI.png" alt="dineinorder.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Delivery Order<br><img src="https://s2.loli.net/2022/05/31/sMJXLeAdBp4wkt5.png" alt="deliveryorder.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Order food<br><img src="https://s2.loli.net/2022/05/31/8CduNe7qnzrBOFM.png" alt="orderfood.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Check Out<br><img src="https://s2.loli.net/2022/05/31/axNvtsi8uEVQ7HS.png" alt="checkout.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Reservation<br><img src="https://s2.loli.net/2022/05/31/JnHgYx1k9qW6mL5.png" alt="reservation.png"></li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>Self-maintained Software Engineering Project</category>
+      </categories>
+      <tags>
+        <tag>Archives</tag>
+        <tag>Portfolio</tag>
+        <tag>Java</tag>
+        <tag>Oracle SQL</tag>
+        <tag>PL/SQL</tag>
       </tags>
   </entry>
 </search>
