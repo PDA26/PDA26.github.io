@@ -150,7 +150,7 @@
   <entry>
     <title>Portfolio - Restaurant Database Management System</title>
     <url>/2021/12/16/Archive_DatabaseManagement/</url>
-    <content><![CDATA[<h1 id="Restaurant-Database-Management-System"><a href="#Restaurant-Database-Management-System" class="headerlink" title="Restaurant Database Management System"></a>Restaurant Database Management System</h1><p>A solution for restaurant’s daily maintainance including order, reservation, checkout and financial management.</p>
+    <content><![CDATA[<h1 id="Restaurant-Database-Management-System"><a href="#Restaurant-Database-Management-System" class="headerlink" title="Restaurant Database Management System"></a>Restaurant Database Management System</h1><p>A solution based on Oracle SQL for restaurant’s daily maintainance including order, reservation, checkout and financial management. </p>
 <h2 id="Highlights"><a href="#Highlights" class="headerlink" title="Highlights"></a>Highlights</h2><ul>
 <li>Basis the past choices a custom menu will be available to each customer along with the traditional menu.</li>
 <li>Free delivery of birthday cake for the prime members.</li>
@@ -159,7 +159,9 @@
 </ul>
 <span id="more"></span>
 
-
+<h2 id="Structure"><a href="#Structure" class="headerlink" title="Structure"></a>Structure</h2><ul>
+<li>EAD<br><img src="https://s2.loli.net/2022/05/31/5THoWPGs7z6L2pn.jpg" alt="DAMG-6210_Project5_final_ERD.jpeg"></li>
+</ul>
 <h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><ul>
 <li>CRUD of Customer<br><img src="https://s2.loli.net/2022/05/31/zWeqgGMC8TcN5En.png" alt="Customer_CRUD.png"></li>
 </ul>
@@ -199,9 +201,58 @@
       <tags>
         <tag>Archives</tag>
         <tag>Portfolio</tag>
-        <tag>Java</tag>
-        <tag>Oracle SQL</tag>
-        <tag>PL/SQL</tag>
+        <tag>Back-End</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Portfolio - Vibe</title>
+    <url>/2021/12/09/Archive_WebDesign/</url>
+    <content><![CDATA[<h1 id="Vibe-A-E-Commerce-Website"><a href="#Vibe-A-E-Commerce-Website" class="headerlink" title="Vibe - A E-Commerce Website"></a>Vibe - A E-Commerce Website</h1><p>A Website that can support full purchase flow including sign-up, log-in, filling-cart and check-out.</p>
+<h2 id="Highlights"><a href="#Highlights" class="headerlink" title="Highlights"></a>Highlights</h2><ul>
+<li>React.js</li>
+<li>MongoDB&#x2F;Mongoose</li>
+<li>Ajax&#x2F;jQuery</li>
+<li>Express.js</li>
+</ul>
+<span id="more"></span>
+
+
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><ul>
+<li>Home<br><img src="https://s2.loli.net/2022/05/31/6IbGUlEfXRaS2ZN.png" alt="home.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Sign Up<br><img src="https://s2.loli.net/2022/05/31/BgNUQ58YHGITnsA.png" alt="signup.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Log In<br><img src="https://s2.loli.net/2022/05/31/duifYCOhxjT5sgH.png" alt="Login.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Seller<br><img src="https://s2.loli.net/2022/05/31/L2VfWwTFogPj6cm.png" alt="seller_page.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Product Overview<br><img src="https://s2.loli.net/2022/05/31/57eRwBPgCozfHd8.png" alt="Products.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Item Detail<br><img src="https://s2.loli.net/2022/05/31/plebP7iGzTEImK3.png" alt="Item_Detail.png"></li>
+</ul>
+<hr>
+<ul>
+<li>Contact<br><img src="https://s2.loli.net/2022/05/31/iB5UTPhAyvaKGYJ.png" alt="Contact.png"></li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>Self-maintained Software Engineering Project</category>
+      </categories>
+      <tags>
+        <tag>Archives</tag>
+        <tag>Portfolio</tag>
+        <tag>Front-End</tag>
       </tags>
   </entry>
 </search>
